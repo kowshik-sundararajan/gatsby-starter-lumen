@@ -17,9 +17,9 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Kowshik Sundararajan',
+    photo: '/avatar.jpeg',
+    bio: 'A software engineer by trade who\'s also passionate about animal rights 🐮, computer security 🔐 and cycling 🚲',
     contacts: {
       email: 'kowshik.sundararajan@gmail.com',
       github: 'kowshik-sundararajan',
