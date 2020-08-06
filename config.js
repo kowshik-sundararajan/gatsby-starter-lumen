@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://www.hownowbrownkow.com',
   pathPrefix: '/',
   title: 'Kowshik Sundararajan',
   subtitle: 'Software Engineer, animal rights activist and avid cyclist.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
@@ -24,9 +24,9 @@ module.exports = {
       email: 'kowshik.sundararajan@gmail.com',
       github: 'kowshik-sundararajan',
       linkedin: 'kowshik-sundararajan',
-      telegram: 'crueltyfreekow',
-      facebook: 'activistkow',
-      instagram: 'itshappykow',
+      telegram: 'hownowbrownkow',
+      facebook: 'hownowbrownkow',
+      instagram: 'itshownowbrownkow',
       twitter: '',
       rss: '',
       vkontakte: '',
