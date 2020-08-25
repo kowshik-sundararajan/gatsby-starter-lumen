@@ -13,7 +13,7 @@ description: "I decided to integrate Elasticsearch for retrieval to improve the 
 socialImage: "/media/posts/search.webp"
 ---
 
-The ability to search and discover things is a must have feature in nearly every platform we use. When developers think about tackling search, the full-text search engine, Elasticsearch, is often the first solution that comes to mind.
+The ability to search and discover things is a must have feature in nearly every platform we use. When developers think about tackling search, the full-text search engine, [Elasticsearch](https://www.elastic.co/what-is/elasticsearch), is often the first solution that comes to mind.
 
 ![search.webp](/media/posts/search.webp)
 
@@ -104,7 +104,7 @@ const pipeline = [
 Person.watch(pipeline)
 ```
 
-Filtering for events that matches person documents with name = Jane
+Filtering for events that matche person documents with name = Jane
 ```javascript
 const pipeline = [
   {
@@ -136,7 +136,7 @@ while (!changeStream.isExhausted()) {
 ### Resuming a change stream
 With any technology, chances are they will fail at some point. Building fault-tolerant systems are part and parcel of a developer's life. If a change stream terminates due to any reason, we can resume the stream from a certain point by using either the `startAfter` and `resumeAfter` option.
 
-Every change event has an `_id` which serves as the resume token. We can save this value in a quick access storage system like redis.
+Every change event has an `_id` which serves as the resume token. We can save this value in a quick access storage system like [redis](https://redis.io/topics/introduction).
 
 ```javascript
 const options = {
