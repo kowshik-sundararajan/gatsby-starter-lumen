@@ -1,6 +1,6 @@
 ---
 title: MongoDB Materialized Views
-date: "2021-05-07T18:00:00.000Z"
+date: "2021-05-02T18:00:00.000Z"
 template: "post"
 draft: false
 slug: "mongodb-materialized-views"
@@ -10,8 +10,6 @@ tags:
 description: "A brief introduction to MongoDB Materialized Views that can help improve the performance of repetitive aggregate queries."
 socialImage: "/media/posts/search.webp"
 ---
-
-# MongoDB Materialized Views
 
 A colleague of mine recently introduced the concept of [materialized views](https://en.wikipedia.org/wiki/Materialized_view "materialized views") in MongoDB to me and I thought it would be fun to write about it. Materialized views are not specific to MongoDB but for the purposes of this article, I won't go beyond the scope of MongoDB.
 
@@ -63,7 +61,8 @@ Transactions.aggregate([
 
 Lastly, the API that would return the counter would perform this find query:
 ```javascript
-TransactionSummary.findOne().then((result) => return result.totalAmount)
+TransactionSummary.findOne()
+  .then((result) => return result.totalAmount)
 ```
 
 There you go, a short introduction to MongoDB materialized views and what they can be used for.
